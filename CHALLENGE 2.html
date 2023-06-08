@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE 2</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url(https://media.gettyimages.com/id/530506816/it/foto/ragazza-suona-rock-and-roll-tamburi.jpg?s=2048x2048&w=gi&k=20&c=uTFe3YzDS-_ePdgBAOeMnxYkz2EXKbZKEVqnvOGaZYg=);
+            font-family: 'Calibri';
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>FORM MUSIC-BOX</h1>
+    <h2>compila qui sotto con i tuoi dati</h2>
+
+    <form onsubmit="alert('SUBMITTED!!!')">
+
+        <div><input type="nome" placeholder="nome" /> <input type="cognome" placeholder="cognome" /> </div>
+        <br>
+        <div>inserire la data di nascita: <input type="date" placeholder="età" /> </div>
+        <br>
+        <div><input type="email" placeholder="inserisci il tuo indirizzo mail" /><input type="password"
+                placeholder="inserire password provisoria" /></div>
+        <br>
+        <div><input type="tel" placeholder="+39 n. di telefono"></div>
+        <br>
+
+        <h3>SELEZIONA IL TIPO DI MUSICA PER IL QUALE VUOI RIMANERE AGGIORNAT*:</h3>
+
+        <div class="checkboxes">
+            <label for=""><input type="checkbox" name="" id="">Pop</label>
+            <label for=""><input type="checkbox" name="" id="">Rock</label>
+            <label for=""><input type="checkbox" name="" id="">Classica</label>
+            <label for=""><input type="checkbox" name="" id="">Metal</label>
+            <label for=""><input type="checkbox" name="" id="">Altro...</label>
+        </div>
+        <br>
+
+        <div><input type="checkbox"> accetto i termini e le condizioni di servizio e affermo di aver <span
+                style="color: beige;"> visionato l'informativa sulla privacy</span></div>
+        <br>
+        <div><input type="submit" onclick="alert"></div>
+
+    </form>
+</body>
+
+</html>
